@@ -152,6 +152,7 @@ a:link {
     display: flex;
     width: 100%;
     gap:1vw;
+    padding-bottom: 6vw;
 }
 
 .image2 > img {
@@ -192,6 +193,88 @@ a:link {
     font-size: calc((1.3 - 1) * 1.2vh + 1rem);
     text-decoration: underline;
 }
+
+.program {
+    background-color: #25e200;
+    width: 100%;
+}
+
+.program-p {
+    font-size: calc(4 * 1.2vh + 1rem);
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-align: center;
+    padding-top: 3vw;
+}
+
+.program-img {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3vw;
+    padding-bottom: 6vw;
+}
+
+.program-img > img:first-child {
+    width: 27vw;
+    height: 32vw;
+    margin-left: 20vw;
+}
+
+.program-img >img:last-child {
+    width: 27vw;
+    height: 32vw;
+    margin-right: 20vw;
+}
+
+.image3 > img {
+    width: 40vw;
+    height: 35vw;
+    margin-left: 8vw;
+    padding-top: 5vw;
+}
+
+.skills-text-2 {
+    width: 40vw;
+    margin-top: 5vw;
+}
+
+.join-head {
+    font-size: calc(1.9 * 1.2vh + 1rem);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: calc(1.3 * (1 + (1 - 2)/25));
+    text-align: center;
+}
+
+.join-body {
+    font-size: calc(0.6* 1.2vh + 1rem);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: calc(1.3 * (1 + (1 - 2)/25));
+    text-align: center;
+    padding-top: 1.5vw;
+}
+
+.partners {
+    width: 100%;
+    height: 9vw;
+    margin-top: 3vw;
+    padding-right: 6vw;
+    padding-left: 6vw;
+}
+
+.review  {
+    display: block;
+    width: 52vw;
+    height: 22vw;
+    margin-top: 3vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
 
 
 
